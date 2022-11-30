@@ -1,0 +1,65 @@
+header{
+    width: 100%;
+    padding: 25px 0px;
+    border-bottom: 1px solid rgba(0,0,0,0.09);
+}
+
+.logo-box{
+    width: 10%;
+}
+
+.logo-box h2{
+    font-size: 24px;
+    color: #aaa;
+}
+
+.nav-list{
+    width: 80%;
+}
+
+.nav-list ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9px;
+    left: -10px;
+}
+
+.nav-list ul li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav-list ul li a{
+    color: #000;
+}
+
+.nav-list ul li a:hover{
+    color: rgb(66, 66, 66);
+}
+
+.basket{
+    width: 10%;
+}
+
+.basketIcon{
+    position: relative;
+    top: 6px;
+}
+
+.basketIcon i{
+    font-size: 25px;
+}
+
+.basketCount{
+    font-size: 10px;
+    background-color: red;
+    padding: 2px 5px;
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: -9px;
+    left: 18px;
+}
