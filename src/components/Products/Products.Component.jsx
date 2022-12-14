@@ -12,7 +12,7 @@ const Products = ({productList}) => {
                    <div className="product-img"> <img src={productItem.img}></img></div>
                     <div className="product-text">
                     <h4>{productItem.name} </h4>
-                    <h3><span>Category</span> {productItem.categoryTitle} </h3>
+                    <h3><span>{productItem.categoryTitle}</span>  </h3>
                     <button>Add Basket </button></div>
                 </div>)
             })}
