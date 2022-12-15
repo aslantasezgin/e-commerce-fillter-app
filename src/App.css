@@ -23,3 +23,87 @@
     max-width: 1140px;
     margin: 0px auto;
 }
+
+@media(max-width:600px){
+
+    .container-flex {
+        max-width: 1140px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding: 0px 5px;
+    }
+
+    header {
+        width: 100%;
+        padding: 15px 0px;
+        border-bottom: 1px solid rgba(0,0,0,0.09);
+    }
+
+    .logo-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-list {
+        width: 90%;
+    }
+
+    .nav-list ul {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 9px;
+        left: 0px;
+    }
+
+    .nav-list ul li a {
+        color: #000;
+        font-size: 14px;
+    }
+
+    .basket {
+        width: 10%;
+        position: relative;
+        top: -4px;
+    }
+
+
+
+    .MainArea {
+        width: 100%;
+        padding: 3px 0px;
+    }
+
+    .products {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        padding-left: 0px;
+        padding-top: 11px;
+    }
+
+    .product-card {
+        width: 48%;
+        margin: 0px 4px;
+        box-shadow: 0px 0px 2px 4px rgba(0,0,0,0.05);
+        transition: all 0.3s ease-in-out;
+        margin-bottom: 20px!important;
+        position: relative;
+    }
+
+    .sidebar {
+        width: 100%;
+        box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.08);
+        border-radius: 7px;
+        padding-top: 9px;
+        height: 109px;
+        overflow: scroll;
+    }
+
+
+}
