@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
+import { Context } from "../../App";
 import "./Header.styles.css"
 
 
@@ -29,11 +30,11 @@ const Menu = [
 
 
 const Header = () => {
+    const {basketCount, setBasketCount} =useContext(Context)
 
-    const [basketCount, setBasketCount] = useState(0)
-
-
- return(   <header>
+    return( 
+        
+        <header>
     <div className="container-flex">
         <div className="logo-box"><h2>BUTIQUE</h2> </div>
         <div className="nav-list">
